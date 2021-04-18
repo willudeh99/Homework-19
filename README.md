@@ -1,7 +1,13 @@
 # Homework-19
 Blockchain with Python
 
-To begin we first need to download the hd-wallet tool.
+To begin we first need to download the hd-wallet tool. Begin by opening a fresh terminal on your local computer, open as an administrator, type in C:\Program Files\Git\bin\bash.exe in your search bar and do as mentioned before. Then cd into your blockchain tools folder and follow theses steps:
+ 1)git clone https://github.com/dan-da/hd-wallet-derive
+ 2)cd hd-wallet-derive
+ 3)curl https://getcomposer.org/installer -o installer.php
+ 4)php installer.php
+ 5)php composer.phar install
+ you should then see a file called hd-wallet-drive which contains the PHP library. You are now good to go!
 
 In this homework we made two sorts of transactions, one for bitcoin and another one for Ethereum. the goal was to succesfully code out some way to send the testnet coins and look at the transaction and get a better feeling on how one can check to see their crypto transactions through pyton.
 
@@ -16,4 +22,4 @@ The transaction for the ethereum con is pretty similar to to this one.
 ![image](https://user-images.githubusercontent.com/71734654/115148703-6940fc00-a026-11eb-8d73-44b4d685428c.png)
 ![image](https://user-images.githubusercontent.com/71734654/115148721-7d84f900-a026-11eb-9206-159267a14c85.png)
 
-You can see the similarities. The only differences are the address types!
+You can see some of the similarities between the codes. The differences are the address types and what you need to pass in order to see a successful transaction.
